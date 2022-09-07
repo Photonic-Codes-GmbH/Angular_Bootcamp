@@ -1,6 +1,8 @@
 # Angular
 .angular
 package-lock.json
+.angulardoc.json
+.vscode
 
 # Logs
 logs
