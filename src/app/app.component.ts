@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'My Cool App';
   myName = "Christian";
   itemImageUrl = '../assets/Logo_schwarze Schrift_ohne Hintergrund.png';
+
+  changeData(){
+
+    this.title = "Something nice"
+  }
 }
