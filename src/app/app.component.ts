@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular_Bootcamp';
+  title = 'My Cool App';
+  myName = "Christian";
+  itemImageUrl = '../assets/Logo_schwarze Schrift_ohne Hintergrund.png';
 }
