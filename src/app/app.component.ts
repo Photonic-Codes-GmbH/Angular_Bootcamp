@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'My Cool App';
   myName = "Christian";
-  itemImageUrl = '../assets/Logo_schwarze Schrift_ohne Hintergrund.png';
+  itemImageUrl = 'https://raw.githubusercontent.com/heavygand/Angular_Bootcamp/enter_data/src/assets/Logo_schwarze%20Schrift_ohne%20Hintergrund.png?token=GHSAT0AAAAAABZBWMH4J7CTCHCM3XFWT2LAYZNX7UA';
   number = 0
   numberPlus5 = 5
   times2 = 10
