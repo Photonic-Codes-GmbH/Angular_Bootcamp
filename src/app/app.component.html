@@ -47,11 +47,11 @@
   </div>
 
   <!-- Photonic Codes Logo -->
-  <h2>photonic-codes.com Logo:</h2>
-  <img [src]="itemImageUrl" width="300">
+  <h2>{{photoniccodes.text}}</h2>
+  <app-photonic-codes #photoniccodes></app-photonic-codes>
   <br>
   <button (click)="changeData()" style="padding: 8px 16px; cursor: pointer; background-color: #1976d2;
-    color: white;">Change Data</button>
+  color: white;">Change Data</button>
   <br>
 
   <label for="fname">Name:</label>
